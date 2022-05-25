@@ -1,0 +1,28 @@
+@import"utilities/variables";
+body {
+    background-color:$color-principal;
+}
+header{
+    h1{
+    font-family: 'Shadows Into Light', cursive;
+    position:center;
+    top: 0;
+    text-align: center;
+    color: white;
+    font-size:3rem;
+    font-weight: 500;
+    background-color:$color-secundario}}
+main{
+    .ofertas{ 
+        padding: 2rem;
+        font-family: 'Shadows Into Light',cursive;
+        color: rgb(238, 255, 0); 
+        text-align: center;
+    }  
+    .ofertas-Mes {display:grid;
+        grid-column: initial; 
+        justify-items: center;
+    }
+    .ofertas-Mes ul { font-family: 'Shadows Into Light', cursive;
+        list-style: none;}     
+}
